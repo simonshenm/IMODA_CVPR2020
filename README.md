@@ -45,8 +45,11 @@ Hi! This my work on reproduction of the paper [Towards Inheritable Models for Op
 `tensorboard --logdir .`
 
 ### 3.3. Results
+**acc_os**
 
 ![acc_os](https://ftp.bmp.ovh/imgs/2020/12/cd97cacc5a6c53f7.png)
+
+**acc_priv**
 
 ![acc_priv](https://ftp.bmp.ovh/imgs/2020/12/d61e7374864d3a79.png)
 

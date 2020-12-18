@@ -1,4 +1,4 @@
-# Reproduction of 2020ICML_IMODA
+# Reproduction of 2020CVPR_IMODA
 
 Hi! This my work on reproduction of the paper [Towards Inheritable Models for Open-set Domain Adaptation](https://arxiv.org/abs/2002.08546). The original code is [here](https://sites.google.com/view/inheritune). Although the code is detailed enough, some problems I faced are not to be ignored. 
 

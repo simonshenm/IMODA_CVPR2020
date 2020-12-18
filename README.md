@@ -12,7 +12,9 @@ Hi! This my work on reproduction of the paper [Towards Inheritable Models for Op
 ## Step 1: Setup
 
 `pip install -r requirements.txt`
+
 `python create_dataset.py`
+
 `python augment_dataset.py`
 
 ## Step 2: Train an Inheritable Model on the Source Domain

@@ -32,7 +32,23 @@ Hi! This my work on reproduction of the paper [Towards Inheritable Models for Op
 
 **Note**: Because my server has a version incompatibility issue, I download the folder **summaries** and use the local tensorboard with the command `tensorboard --logdir=logdir_val`
 
-### 2.3. Results
+### 2.3. Results(DtoA_vendor)
+
+**1. train**
+
+classification loss 
+
+![](https://ftp.bmp.ovh/imgs/2020/12/f6e61091573d43d2.png)
+
+source batch loss
+
+![](https://ftp.bmp.ovh/imgs/2020/12/3821154e0e1099f9.png)
+
+**2. validation**
+
+source average
+
+![](https://ftp.bmp.ovh/imgs/2020/12/eb58909ce42fba10.png)
 
 ## Step 3: Adapt to the Target Domain
 
@@ -46,12 +62,28 @@ Hi! This my work on reproduction of the paper [Towards Inheritable Models for Op
 
 `tensorboard --logdir .`
 
-### 3.3. Results
-**acc_os**
+### 3.3. Results(DtoA_client)
 
-![acc_os](https://ftp.bmp.ovh/imgs/2020/12/cd97cacc5a6c53f7.png)
+**1. train**
 
-**acc_priv**
+target accuracy
 
-![acc_priv](https://ftp.bmp.ovh/imgs/2020/12/d61e7374864d3a79.png)
+![](https://ftp.bmp.ovh/imgs/2020/12/019b2c243eef2444.png)
 
+adaptation loss
+
+![](https://ftp.bmp.ovh/imgs/2020/12/1c600abe4ed6ec97.png)
+
+pseudo labels classification loss
+
+![](https://ftp.bmp.ovh/imgs/2020/12/4d11094f4e6867ba.png)
+
+**2. validation**
+
+os accuracy
+
+![](https://ftp.bmp.ovh/imgs/2020/12/1bee424e031bb449.png)
+
+priv accuracy
+
+![](https://ftp.bmp.ovh/imgs/2020/12/8c440987c6d7e8fc.png)

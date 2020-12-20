@@ -40,7 +40,7 @@ classification loss
 
 ![](https://ftp.bmp.ovh/imgs/2020/12/f6e61091573d43d2.png)
 
-source batch loss
+source batch accuracy
 
 ![](https://ftp.bmp.ovh/imgs/2020/12/3821154e0e1099f9.png)
 
